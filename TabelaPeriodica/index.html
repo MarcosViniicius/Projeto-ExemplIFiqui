@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela periodica</title>
+    <style>
+      /* Definindo estilos para todo o corpo do documento */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Definindo estilos para o cabeçalho */
+      header {
+        background-color: #0099cc;
+        color: #fff;
+        padding: 20px;
+      }
+
+      /* Definindo estilos para o título principal */
+      h1 {
+        margin: 0;
+        font-size: 2em;
+        text-align: center;
+      }
+
+      /* Definindo estilos para a grade */
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(18, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-gap: 5px;
+        margin: 20px auto;
+        width: 80%;
+      }
+
+      /* Definindo estilos para as células da grade */
+      .grid-item {
+        border: 1px solid #333;
+        text-align: center;
+        background-color: #fff;
+        width: 50px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+
+      /* Definindo estilos para os botões */
+      button {
+        border: none;
+        outline: none;
+        background-color: #fff;
+        color: #0099cc;
+        font-size: 1em;
+        cursor: pointer;
+      }
+
+      /* Definindo estilos para os botões quando estiverem em foco ou ativos */
+      button:focus,
+      button:active {
+        background-color: #0099cc;
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Tabela Periodica Interativa</h1>
+
+    <div id="divexibir"></div>
+    <table>
+      <tr>
+        <td class="grid-item" data-nome="h">H</td>
+        <td class="grid-item" data-nome="He">He</td>
+      </tr>
+      <tr>
+        <td class="grid-item" data-nome="Li">Li</td>
+        <td class="grid-item" data-nome="Be">Be</td>
+        <td class="grid-item" data-nome="b">B</td>
+        <td class="grid-item" data-nome="c">C</td>
+        <td class="grid-item" data-nome="n">N</td>
+        <td class="grid-item" data-nome="o">O</td>
+        <td class="grid-item" data-nome="f">F</td>
+        <td class="grid-item" data-nome="Ne">Ne</td>
+      </tr>
+      <tr>
+        <td class="grid-item" data-nome="Na">Na</td>
+        <td class="grid-item" data-nome="Mg">Mg</td>
+        <td class="grid-item" data-nome="Al">Al</td>
+        <td class="grid-item" data-nome="Si">Si</td>
+        <td class="grid-item" data-nome="p">P</td>
+        <td class="grid-item" data-nome="s">S</td>
+        <td class="grid-item" data-nome="Cl">Cl</td>
+        <td class="grid-item" data-nome="Ar">Ar</td>
+      </tr>
+      <tr>
+        <td class="grid-item" data-nome="k">K</td>
+        <td class="grid-item" data-nome="Ca">Ca</td>
+        <td class="grid-item" data-nome="Sc">Sc</td>
+        <td class="grid-item" data-nome="Ti">Ti</td>
+        <td class="grid-item" data-nome="v">V</td>
+        <td class="grid-item" data-nome="Cr">Cr</td>
+        <td class="grid-item" data-nome="Mn">Mn</td>
+        <td class="grid-item" data-nome="Fe">Fe</td>
+        <td class="grid-item" data-nome="Co">Co</td>
+        <td class="grid-item" data-nome="Ni">Ni</td>
+        <td class="grid-item" data-nome="Cu">Cu</td>
+        <td class="grid-item" data-nome="Zn">Zn</td>
+        <td class="grid-item" data-nome="Ga">Ga</td>
+        <td class="grid-item" data-nome="Ge">Ge</td>
+        <td class="grid-item" data-nome="As">As</td>
+        <td class="grid-item" data-nome="Se">Se</td>
+        <td class="grid-item" data-nome="Br">Br</td>
+        <td class="grid-item" data-nome="Kr">Kr</td>
+      </tr>
+      <tr>
+        <td class="grid-item" data-nome="Rb">Rb</td>
+        <td class="grid-item" data-nome="Sr">Sr</td>
+        <td class="grid-item" data-nome="y">Y</td>
+        <td class="grid-item" data-nome="Zr">Zr</td>
+        <td class="grid-item" data-nome="Nb">Nb</td>
+        <td class="grid-item" data-nome="Mo">Mo</td>
+        <td class="grid-item" data-nome="Tc">Tc</td>
+        <td class="grid-item" data-nome="Ru">Ru</td>
+        <td class="grid-item" data-nome="Rh">Rh</td>
+        <td class="grid-item" data-nome="Pd">Pd</td>
+        <td class="grid-item" data-nome="Ag">Ag</td>
+        <td class="grid-item" data-nome="Cd">Cd</td>
+        <td class="grid-item" data-nome="In">In</td>
+        <td class="grid-item" data-nome="Sn">Sn</td>
+        <td class="grid-item" data-nome="Sb">Sb</td>
+        <td class="grid-item" data-nome="Te">Te</td>
+        <td class="grid-item" data-nome="i">I</td>
+        <td class="grid-item" data-nome="Xe">Xe</td>
+      </tr>
+      <tr>
+        <td class="grid-item" data-nome="Cs">Cs</td>
+        <td class="grid-item" data-nome="Ba">Ba</td>
+        <td class="grid-item" data-nome="Hf">Hf</td>
+
+        <td class="grid-item" data-nome="Ta">Ta</td>
+        <td class="grid-item" data-nome="w">W</td>
+        <td class="grid-item" data-nome="Re">Re</td>
+        <td class="grid-item" data-nome="Os">Os</td>
+
+        <td class="grid-item" data-nome="Ir">Ir</td>
+        <td class="grid-item" data-nome="Pt">Pt</td>
+        <td class="grid-item" data-nome="Au">Au</td>
+        <td class="grid-item" data-nome="Hg">Hg</td>
+
+        <td class="grid-item" data-nome="Tl">Tl</td>
+        <td class="grid-item" data-nome="Pb">Pb</td>
+        <td class="grid-item" data-nome="Bi">Bi</td>
+        <td class="grid-item" data-nome="Po">Po</td>
+        <td class="grid-item" data-nome="At">At</td>
+        <td class="grid-item" data-nome="Rn">Rn</td>
+      </tr>
+      <tr>
+        <td class="grid-item" data-nome="Fr">Fr</td>
+        <td class="grid-item" data-nome="Ra">Ra</td>
+        <td class="grid-item" data-nome="Rf">Rf</td>
+        <td class="grid-item" data-nome="Db">Db</td>
+        <td class="grid-item" data-nome="Sg">Sg</td>
+        <td class="grid-item" data-nome="Bh">Bh</td>
+        <td class="grid-item" data-nome="Hs">Hs</td>
+        <td class="grid-item" data-nome="Mt">Mt</td>
+        <td class="grid-item" data-nome="Ds">Ds</td>
+        <td class="grid-item" data-nome="Rg">Rg</td>
+        <td class="grid-item" data-nome="Cn">Cn</td>
+        <td class="grid-item" data-nome="Nh">Nh</td>
+        <td class="grid-item" data-nome="Fl">Fl</td>
+        <td class="grid-item" data-nome="Mc">Mc</td>
+        <td class="grid-item" data-nome="Lv">Lv</td>
+        <td class="grid-item" data-nome="Ts">Ts</td>
+        <td class="grid-item" data-nome="Og">Og</td>
+      </tr>
+      <tr>
+        <td class="grid-item" data-nome="La">La</td>
+        <td class="grid-item" data-nome="Ce">Ce</td>
+        <td class="grid-item" data-nome="Pr">Pr</td>
+        <td class="grid-item" data-nome="Nd">Nd</td>
+
+        <td class="grid-item" data-nome="Pm">Pm</td>
+        <td class="grid-item" data-nome="Sm">Sm</td>
+        <td class="grid-item" data-nome="Eu">Eu</td>
+        <td class="grid-item" data-nome="Gd">Gd</td>
+
+        <td class="grid-item" data-nome="Tb">Tb</td>
+        <td class="grid-item" data-nome="Dy">Dy</td>
+        <td class="grid-item" data-nome="Ho">Ho</td>
+        <td class="grid-item" data-nome="Er">Er</td>
+
+        <td class="grid-item" data-nome="Tm">Tm</td>
+        <td class="grid-item" data-nome="Yb">Yb</td>
+        <td class="grid-item" data-nome="Lu">Lu</td>
+      </tr>
+      <tr>
+        <td class="grid-item" data-nome="Ac">Ac</td>
+        <td class="grid-item" data-nome="Th">Th</td>
+        <td class="grid-item" data-nome="Pa">Pa</td>
+        <td class="grid-item" data-nome="u">u</td>
+        <td class="grid-item" data-nome="Np">Np</td>
+        <td class="grid-item" data-nome="Pu">Pu</td>
+        <td class="grid-item" data-nome="Am">Am</td>
+        <td class="grid-item" data-nome="Bk">Bk</td>
+        <td class="grid-item" data-nome="Cf">Cf</td>
+        <td class="grid-item" data-nome="Es">Es</td>
+        <td class="grid-item" data-nome="Fm">Fm</td>
+        <td class="grid-item" data-nome="Md">Md</td>
+        <td class="grid-item" data-nome="No">No</td>
+        <td class="grid-item" data-nome="Lr">Lr</td>
+      </tr>
+    </table>
+
+    <div id="divexibir"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
