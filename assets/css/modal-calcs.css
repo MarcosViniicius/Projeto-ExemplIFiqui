@@ -1,0 +1,234 @@
+@font-face {
+  font-family: "SF Compact";
+  src: url("/assets/fonts/SF-Compact.dmg") format("woff2");
+}
+
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #d9d9d9;
+  --dl-size-size-unit: 1rem;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #ffffff;
+  --dl-space-space-unit: 1em;
+  --dl-color-primary-100: rgb(78, 244, 150);
+  --dl-color-primary-500: rgb(78, 244, 150);
+  --dl-color-primary-700: rgb(0, 0, 0);
+  --dl-size-size-halfunit: 0.5rem;
+  --dl-radius-radius-round: 50%;
+  --dl-size-size-doubleunit: 2rem;
+  --dl-size-size-tripleunit: 3rem;
+  --dl-space-space-halfunit: 0.5em;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-quadruple: 4em;
+  --dl-space-space-doubleunit: 2em;
+  --dl-space-space-tripleunit: 3em;
+}
+
+.modal-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0000004b;
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.modal {
+  width: 60%;
+  min-width: 400px;
+  min-height: 200px;
+  background-color: #ffffff;
+  backdrop-filter: blur(10px);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.fechar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--dl-color-primary-500);
+  color: #fff;
+  font-weight: 700;
+  font-size: 14pt;
+  cursor: pointer;
+}
+
+.modal h1 {
+  margin-bottom: 20px;
+}
+
+#submit {
+  border-radius: 50px;
+  transition: 0.5s;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#submit:hover {
+  background-color: #0000001f;
+  transition: 0.5s;
+}
+#limparBotao {
+  border-radius: 50px;
+  transition: 0.5s;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#limparBotao:hover {
+  background-color: #0000001f;
+  transition: 0.5s;
+}
+#formulaInput {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: transparent;
+  transition: 0.5s;
+}
+#formulaInput:hover {
+  background-color: #0000001f;
+  transition: 0.5s;
+}
+#resultado {
+  background-color: #ffffff1f;
+  border-radius: 10px;
+}
+@keyframes animate-modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.modal-container.mostrar {
+  display: flex;
+}
+
+.mostrar .modal {
+  animation: animate-modal 0.3s;
+}
+
+@media (max-width: 991px) {
+  .modal {
+    height: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .modal {
+    height: 100%;
+  }
+}
+
+@media (max-width: 479px) {
+  .modal {
+    height: 100%;
+  }
+}
+
+.input-form {
+  margin-bottom: 10px;
+}
+
+.input-form input {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 200px;
+  background-color: transparent;
+}
+
+.result {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.explanation {
+  margin-top: 20px;
+}
+
+#tabs {
+  width: 600px;
+  margin: 0 auto;
+}
+
+ul.ui-tabs-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+}
+
+ul.ui-tabs-nav li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+ul.ui-tabs-nav li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+
+ul.ui-tabs-nav li.ui-tabs-active a {
+  background-color: #fff;
+  border-bottom-color: transparent;
+}
+
+.ui-tabs-panel {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+form label {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+}
+
+form input[type="number"] {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+p.resultado {
+  margin-top: 10px;
+  font-weight: bold;
+}
