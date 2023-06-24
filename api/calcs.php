@@ -21,7 +21,7 @@
     <div class="landing-page-container">
       <div class="landing-page-top-container">
         <nav data-role="Header" class="landing-page-navbar">
-          <h1><a href="index.html">Exemplifiqui</a></h1>
+          <h1><a href="index.php">Exemplifiqui</a></h1>
           <div class="landing-page-right-side">
             <div class="landing-page-links-container">
               <span class="landing-page-text"><a href="index.php">Home</a></span>
