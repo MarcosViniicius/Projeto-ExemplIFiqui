@@ -90,6 +90,7 @@ body {
   overflow: hidden;
   transition: 1s;
   letter-spacing: 4px;
+  cursor: pointer;
 }
 .login-box form button:hover {
   color: rgb(255, 255, 255);
