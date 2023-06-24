@@ -23,11 +23,11 @@
           <h1><a href="index.php">Exemplifiqui</a></h1>
           <div class="landing-page-right-side">
             <div class="landing-page-links-container">
-              <span class="landing-page-text"><a href="../api/index.php">Home</a></span>
+              <span class="landing-page-text"><a href="index.php">Home</a></span>
               <span class="landing-page-text01"><a href="">Sobre o projeto</a></span>
               <span class="landing-page-text02"><a href="https://exemplifiqui-newsletter.vercel.app"
                   target="_blank">Newsletter</a></span>
-              <span class="landing-page-text03"><a href="../api/calcs.php">Calculadoras</a></span>
+              <span class="landing-page-text03"><a href="calcs.php">Calculadoras</a></span>
             </div>
             <a href="./subscribe-login.php" class="landing-page-link">
               <div class="solid-button-container">
