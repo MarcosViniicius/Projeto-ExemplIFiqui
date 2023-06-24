@@ -17,6 +17,18 @@
     {
       "source": "(.*)",
       "destination": "api/index.php"
+    },
+    {
+      "source": "/calculadoras",
+      "destination": "api/calcs.php"
+    },
+    {
+      "source": "/sobre",
+      "destination": "api/sobre.php"
+    },
+    {
+      "source": "/login",
+      "destination": "api/subscribe-login.php"
     }
   ]
 }
