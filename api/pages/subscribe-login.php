@@ -5,12 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="icon" href="../../images/exemplifiqui-logo2.png">
-    <link rel="stylesheet" href="../../assets/css/subscribe-login.css" />
-    <link rel="stylesheet" href="../../assets/css/default-style-sheet.css" />
-    <link rel="stylesheet" href="../../assets/css/reset-style-sheet.css" />
-    <link rel="stylesheet" href="../../assets/css/style.css" />
-    <link rel="stylesheet" href="../../assets/css/landing-page.css" />
+    <link rel="icon" href="../images/exemplifiqui-logo2.png">
+    <link rel="stylesheet" href="../assets/css/subscribe-login.css" />
+    <link rel="stylesheet" href="../assets/css/default-style-sheet.css" />
+    <link rel="stylesheet" href="../assets/css/reset-style-sheet.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/landing-page.css" />
 </head>
 
 <body>
@@ -18,7 +18,7 @@
         <div class="landing-page-container">
             <div class="landing-page-top-container">
                 <nav data-role="Header" class="landing-page-navbar">
-                    <h1><a href="index.php">Exemplifiqui</a></h1>
+                    <h1><a href="../index.php">Exemplifiqui</a></h1>
                     <div class="landing-page-right-side">
                         <div class="landing-page-links-container">
                             <span class="landing-page-text"><a href="../index.php">Home</a></span>
