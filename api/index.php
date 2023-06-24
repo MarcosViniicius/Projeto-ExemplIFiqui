@@ -29,7 +29,7 @@
                   target="_blank">Newsletter</a></span>
               <span class="landing-page-text03"><a href="calcs.php">Calculadoras</a></span>
             </div>
-            <a href="subscribe-login.php" class="landing-page-link">
+            <a href="./subscribe-login.php" class="landing-page-link">
               <div class="solid-button-container">
                 <button class="solid-button-button button Button" style="cursor: pointer">
                   <span>Login</span>
