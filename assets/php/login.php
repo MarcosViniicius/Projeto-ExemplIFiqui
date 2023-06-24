@@ -23,11 +23,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "SELECT * FROM usuario_comum WHERE nome_de_usuario = '$username' AND senha_criptografada = '$password'";
     $resultado = mysqli_query($conexao, $sql);
 
+
     // Verifica se a consulta retornou algum resultado
     if (mysqli_num_rows($resultado) == 1) {
+        // Redireciona para a tela de painel de controle
         // Usuário autenticado com sucesso
         echo "Login realizado com sucesso!";
-        // Faça o redirecionamento para a página desejada aqui
+
+        exit(); // Certifique-se de terminar a execução do script após o redirecionamento
     } else {
         // Usuário inválido
         echo "Nome de usuário ou senha incorretos.";
