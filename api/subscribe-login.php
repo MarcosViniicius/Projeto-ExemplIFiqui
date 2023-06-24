@@ -18,14 +18,14 @@
         <div class="landing-page-container">
             <div class="landing-page-top-container">
                 <nav data-role="Header" class="landing-page-navbar">
-                    <h1><a href="../index.php">Exemplifiqui</a></h1>
+                    <h1><a href="index.php">Exemplifiqui</a></h1>
                     <div class="landing-page-right-side">
                         <div class="landing-page-links-container">
-                            <span class="landing-page-text"><a href="../index.php">Home</a></span>
+                            <span class="landing-page-text"><a href="index.php">Home</a></span>
                             <span class="landing-page-text01"><a href="#">Sobre</a></span>
                             <span class="landing-page-text02"><a href="https://exemplifiqui-newsletter.vercel.app"
                                     target="_blank">Newsletter</a></span>
-                            <span class="landing-page-text03"><a href="../calcs.php">Calculadoras</a></span>
+                            <span class="landing-page-text03"><a href="calcs.php">Calculadoras</a></span>
                         </div>
 
                     </div>
@@ -56,10 +56,10 @@
                             </div>
                             <div class="landing-page-right-side1">
                                 <div class="landing-page-links-container1">
-                                    <span class="landing-page-text04"><a href="../index.php">Home</a></span>
+                                    <span class="landing-page-text04"><a href="index.php">Home</a></span>
                                     <span class="landing-page-text05">Sobre</span>
                                     <span class="landing-page-text06">Newsletter</span>
-                                    <span class="landing-page-text03"><a href="../calcs.php">Calculadoras</a></span>
+                                    <span class="landing-page-text03"><a href="calcs.php">Calculadoras</a></span>
                                 </div>
                                 <a href="#main-section" class="landing-page-link01">
 
@@ -101,7 +101,7 @@
 
             <!--  -->
             <?php
-            require_once('../../assets/php/login.php');
+            require_once('../assets/php/login.php');
             ?>
             <div class="login-box">
                 <h2>Login</h2>
