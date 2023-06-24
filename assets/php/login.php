@@ -1,10 +1,10 @@
 <?php
 // Configurações do banco de dados
-$host = 'newsletter-exemplifiqui.c1iccz3gz8vt.us-east-1.rds.amazonaws.com:3306'; // Endereço do servidor do banco de dados
-$usuario = 'admin'; // Nome de usuário do banco de dados
-$senha = 'Mini1000'; // Senha do banco de dados
-$banco = "usuarios"; // Nome do banco de dados
 
+$host = getenv('DB_HOST');
+$usuario = getenv('DB_USER');
+$senha = getenv('DB_PASSWORD');
+$banco = getenv('DB_NAME');
 // Conexão com o banco de dados
 $conexao = mysqli_connect($host, $usuario, $senha, $banco);
 
