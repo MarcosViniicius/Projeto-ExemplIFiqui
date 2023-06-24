@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="utf-8" />
   <meta property="twitter:card" content="summary_large_image" />
-  <link rel="icon" href="../images/exempifiqui-logo.jpg">
+  <link rel="icon" href="../images/exemplifiqui-logo2.png">
   <link rel="stylesheet" href="../assets/css/default-style-sheet.css" />
   <link rel="stylesheet" href="../assets/css/reset-style-sheet.css" />
   <link rel="stylesheet" href="../assets/css/style.css" />
@@ -30,10 +30,10 @@
                   target="_blank">Newsletter</a></span>
               <span class="landing-page-text03"><a href="calcs.php">Calculadoras</a></span>
             </div>
-            <a href="#main-section" class="landing-page-link">
+            <a href="../api/pages/subscribe-login.php" class="landing-page-link">
               <div class="solid-button-container">
-                <button class="solid-button-button button Button">
-                  <span style="cursor: pointer">Explorar Calculadoras</span>
+                <button class="solid-button-button button Button" style="cursor: pointer">
+                  <span>Login</span>
                 </button>
               </div>
             </a>
@@ -71,10 +71,10 @@
                       target="_blank">Newsletter</a></span>
                   <span><a href="calcs.php">Calculadoras</a></span>
                 </div>
-                <a href="#main-section" class="landing-page-link01">
+                <a href="../api/pages/subscribe-login.php" class="landing-page-link">
                   <div class="solid-button-container">
-                    <button class="solid-button-button button Button">
-                      <span><a href="#main-section">Explorar calculadoras</a></span>
+                    <button class="solid-button-button button Button" style="cursor: pointer">
+                      <span>Login</span>
                     </button>
                   </div>
                 </a>
