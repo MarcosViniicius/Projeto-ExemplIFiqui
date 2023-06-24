@@ -5,6 +5,12 @@
     },
     "api/calcs.php": {
       "runtime": "vercel-php@0.5.2"
+    },
+    "api/sobre.php": {
+      "runtime": "vercel-php@0.5.2"
+    },
+    "api/sobscribe-login.php": {
+      "runtime": "vercel-php@0.5.2"
     }
   },
   "rewrites": [
@@ -13,7 +19,7 @@
       "destination": "api/index.php"
     },
     {
-      "source": "(.*)/calc",
+      "source": "/calc",
       "destination": "api/calcs.php"
     }
   ]

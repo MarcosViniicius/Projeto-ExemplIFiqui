@@ -27,7 +27,7 @@
               <span class="landing-page-text01"><a href="">Sobre o projeto</a></span>
               <span class="landing-page-text02"><a href="https://exemplifiqui-newsletter.vercel.app"
                   target="_blank">Newsletter</a></span>
-              <span class="landing-page-text03"><a href="calcs.php">Calculadoras</a></span>
+              <span class="landing-page-text03"><a href="api/calcs.php">Calculadoras</a></span>
             </div>
             <a href="./subscribe-login.php" class="landing-page-link">
               <div class="solid-button-container">
@@ -68,7 +68,7 @@
                   <span class="landing-page-text05">Sobre o projeto</span>
                   <span class="landing-page-text06"><a href="https://exemplifiqui-newsletter.vercel.app"
                       target="_blank">Newsletter</a></span>
-                  <span><a href="calcs.php">Calculadoras</a></span>
+                  <span><a href="api/calcs.php">Calculadoras</a></span>
                 </div>
                 <a href="#main-section" class="landing-page-link01">
                   <a href="subscribe-login.php" class="landing-page-link">
