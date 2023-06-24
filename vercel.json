@@ -17,10 +17,6 @@
     {
       "source": "(.*)",
       "destination": "api/index.php"
-    },
-    {
-      "source": "/calc",
-      "destination": "api/calcs.php"
     }
   ]
 }
