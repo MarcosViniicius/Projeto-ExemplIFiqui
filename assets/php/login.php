@@ -27,8 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Verifica se a consulta retornou algum resultado
     if (mysqli_num_rows($resultado) == 1) {
         // Redireciona para a tela de painel de controle
-        header("Location: ../../api/index.php");
-
+        echo "<script>window.location.href = '../../api/index.php';</script>";
         // Usuário autenticado com sucesso
         echo "Login realizado com sucesso!";
 
