@@ -27,7 +27,7 @@
               <span class="landing-page-text01"><a href="">Sobre o projeto</a></span>
               <span class="landing-page-text02"><a href="https://exemplifiqui-newsletter.vercel.app"
                   target="_blank">Newsletter</a></span>
-              <span class="landing-page-text03"><a href="/calcs.php">Calculadoras</a></span>
+              <span class="landing-page-text03"><a href="calcs.php">Calculadoras</a></span>
             </div>
             <a href="./subscribe-login.php" class="landing-page-link">
               <div class="solid-button-container">
