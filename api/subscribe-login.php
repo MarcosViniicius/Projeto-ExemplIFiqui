@@ -101,7 +101,7 @@
 
             <!--  -->
             <?php
-            require_once('assets/php/login.php');
+            require_once('../assets/php/login.php');
             ?>
             <div class="login-box">
                 <h2>Login</h2>
