@@ -24,7 +24,7 @@
           <div class="landing-page-right-side">
             <div class="landing-page-links-container">
               <span class="landing-page-text"><a href="index.php">Home</a></span>
-              <span class="landing-page-text01"><a href="">Sobre</a></span>
+              <span class="landing-page-text01"><a href="">Sobre o projeto</a></span>
               <span class="landing-page-text02"><a href="https://exemplifiqui-newsletter.vercel.app"
                   target="_blank">Newsletter</a></span>
               <span class="landing-page-text03"><a href="calcs.php">Calculadoras</a></span>
@@ -65,7 +65,7 @@
               <div class="landing-page-right-side1">
                 <div class="landing-page-links-container1">
                   <span class="landing-page-text04"><a href="index.php">Home</a></span>
-                  <span class="landing-page-text05">About</span>
+                  <span class="landing-page-text05">Sobre o projeto</span>
                   <span class="landing-page-text06"><a href="https://exemplifiqui-newsletter.vercel.app"
                       target="_blank">Newsletter</a></span>
                   <span><a href="calcs.php">Calculadoras</a></span>
