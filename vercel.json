@@ -13,7 +13,7 @@
       "destination": "api/index.php"
     },
     {
-      "source": "/calc/(.*)/(.*)",
+      "source": "(.*)/calc",
       "destination": "api/calcs.php"
     }
   ]
