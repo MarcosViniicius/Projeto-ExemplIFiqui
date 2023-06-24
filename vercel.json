@@ -17,10 +17,6 @@
     {
       "source": "(.*)",
       "destination": "api/index.php"
-    },
-    {
-      "source": "/calculadoras",
-      "destination": "api/calcs.php"
     }
   ]
 }
