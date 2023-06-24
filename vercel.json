@@ -2,6 +2,9 @@
   "functions": {
     "api/index.php": {
       "runtime": "vercel-php@0.5.2"
+    },
+    "api/calcs.php": {
+      "runtime": "vercel-php@0.5.2"
     }
   },
   "rewrites": [
