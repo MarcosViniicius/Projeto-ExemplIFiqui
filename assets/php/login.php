@@ -1,10 +1,12 @@
 <?php
+
 // Configurações do banco de dados
 
 $host = getenv('DB_HOST');
 $usuario = getenv('DB_USER');
 $senha = getenv('DB_PASSWORD');
 $banco = 'usuarios';
+
 // Conexão com o banco de dados
 $conexao = mysqli_connect($host, $usuario, $senha, $banco);
 
@@ -27,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Verifica se a consulta retornou algum resultado
     if (mysqli_num_rows($resultado) == 1) {
         // Redireciona para a tela de painel de controle
-        echo "<script>window.location.href = '../../api/index.php';</script>";
+        echo "<script>window.location.href = '../../api/control-panel.php';</script>";
         // Usuário autenticado com sucesso
         echo "Login realizado com sucesso!";
 

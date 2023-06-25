@@ -11,6 +11,9 @@
     },
     "api/subscribe-login.php": {
       "runtime": "vercel-php@0.5.2"
+    },
+    "api/control-panel.php": {
+      "runtime": "vercel-php@0.5.2"
     }
   },
   "rewrites": [
@@ -29,6 +32,10 @@
     {
       "source": "/login",
       "destination": "api/subscribe-login.php"
+    },
+    {
+      "source": "/painel-de-controle",
+      "destination": "api/control-panel.php"
     }
   ],
   "headers": [

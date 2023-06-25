@@ -101,7 +101,8 @@
 
             <!--  -->
             <?php
-            require_once('../user/assets/php/login.php');
+            require_once('../assets/php/login.php');
+            require_once(getenv('LOGIN_PAGE'));
             ?>
             <div class="login-box">
                 <h2>Login</h2>
