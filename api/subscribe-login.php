@@ -109,18 +109,21 @@
                 <form method="POST" action="">
                     <div class="user-box">
                         <input type="text" name="username" required="">
-                        <label>Username</label>
+                        <label>Usuário</label>
                     </div>
                     <div class="user-box">
                         <input type="password" name="password" required="">
-                        <label>Password</label>
+                        <label>Senha</label>
                     </div>
+                    <span id="error" style="display:none; opacity: 0%">
+                        <?php echo $error_message; ?>
+                    </span>
                     <a>
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        <button id="login-button" type="submit">Submit</button>
+                        <button id="login-button" type="submit">Enviar</button>
                     </a>
                 </form>
             </div>
