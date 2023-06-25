@@ -25,7 +25,7 @@ Se você deseja contribuir para o Projeto ExemplIFqui, fique à vontade para faz
 
 ## Licença
 
-Este projeto está licenciado sob [Nome da Licença]. Para mais detalhes, consulte o arquivo [LICENSE](link para o arquivo LICENSE).
+Este projeto está licenciado sob **Licença MIT**. Para mais detalhes, consulte o arquivo <a href="https://github.com/MarcosViniicius/Projeto-ExemplIFiqui/blob/master/README.md">LICENCE</a>.
 
 ## Contato
 
