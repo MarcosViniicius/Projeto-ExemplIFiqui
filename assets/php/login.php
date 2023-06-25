@@ -1,12 +1,5 @@
 <?php
-
-// Configurações do banco de dados
-
-$host = getenv('DB_HOST');
-$usuario = getenv('DB_USER');
-$senha = getenv('DB_PASSWORD');
-$banco = 'usuarios';
-
+require_once('connect.php');
 // Conexão com o banco de dados
 $conexao = mysqli_connect($host, $usuario, $senha, $banco);
 
