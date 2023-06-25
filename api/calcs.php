@@ -21,14 +21,14 @@
     <div class="landing-page-container">
       <div class="landing-page-top-container">
         <nav data-role="Header" class="landing-page-navbar">
-          <h1><a href="index.php">Exemplifiqui</a></h1>
+          <h1><a href="index.php">ExemplIFiqui</a></h1>
           <div class="landing-page-right-side">
             <div class="landing-page-links-container">
               <span class="landing-page-text"><a href="/index.php">Home</a></span>
               <span class="landing-page-text01"><a href="#">Sobre o projeto</a></span>
               <span class="landing-page-text02"><a href="https://exemplifiqui-newsletter.vercel.app"
                   target="_blank">Newsletter</a></span>
-              <span class="landing-page-text03"><a href="/calcs.php">Calculadoras</a></span>
+              <span class="landing-page-text03"><a href="../api/calcs.php">Calculadoras</a></span>
             </div>
             <a href="subscribe-login.php" class="landing-page-link">
               <div class="solid-button-container">
@@ -54,7 +54,7 @@
           <div data-role="MobileMenu" class="landing-page-mobile-menu">
             <div class="landing-page-nav">
               <div class="landing-page-top">
-                <h1>Exemplifiqui</h1>
+                <h1>ExemplIFiqui</h1>
                 <div data-role="CloseMobileMenu" class="landing-page-close-menu">
                   <svg viewBox="0 0 1024 1024" class="landing-page-icon03">
                     <path
@@ -65,11 +65,11 @@
               </div>
               <div class="landing-page-right-side1">
                 <div class="landing-page-links-container1">
-                  <span class="landing-page-text04"><a href="index.php">Home</a></span>
+                  <span class="landing-page-text04"><a href="index.php">Início</a></span>
                   <span class="landing-page-text05">Sobre o projeto</span>
                   <span class="landing-page-text06"><a href="https://exemplifiqui-newsletter.vercel.app"
                       target="_blank">Newsletter</a></span>
-                  <span><a href="/calcs.php">Calculadoras</a></span>
+                  <span><a href="../api/calcs.php">Calculadoras</a></span>
                 </div>
                 <a href="subscribe-login.php" class="landing-page-link">
                   <div class="solid-button-container">
