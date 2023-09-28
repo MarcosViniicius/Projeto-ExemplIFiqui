@@ -103,8 +103,8 @@
 
             <!--  -->
             <?php
-            // require_once('../assets/php/login.php'); // DESCOMENTAR PARA USAR LOCALMENTE
-            require_once(getenv('LOGIN_PAGE'));
+            require_once('../assets/php/login.php'); // DESCOMENTAR PARA USAR LOCALMENTE
+            // require_once(getenv('LOGIN_PAGE'));
             ?>
             <div class="login-box">
                 <h2>Login</h2>

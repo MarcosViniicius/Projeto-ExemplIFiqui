@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
     <link rel="icon" href="../images/exemplifiqui-logo2.png">
-    <link rel="stylesheet" href="../assets/css/subscribe-login.css" />
     <link rel="stylesheet" href="../assets/css/default-style-sheet.css" />
     <link rel="stylesheet" href="../assets/css/reset-style-sheet.css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="../assets/css/landing-page.css" />
+    <link rel="stylesheet" href="../assets/css/control-panel.css" />
 </head>
 
 <body>
@@ -99,10 +99,43 @@
                         </div>
                     </div>
                 </nav>
-                <div>
-                    <h1>Painel de controle</h1>
+
+
+                <div class="container">
+                    <h1>Painel de Controle</h1>
                 </div>
-            </div>
+                <div class="container">
+                    <h1>Envio de Conteúdo HTML</h1>
+                    <form action="" method="POST">
+                        <label for="titulo">Título:</label><br>
+                        <input type="text" name="titulo" id="titulo" required><br>
+
+                        <label for="imagem_url">URL da Imagem:</label><br>
+                        <input type="text" name="imagem_url" id="imagem_url" required><br>
+
+                        <label for="conteudo">Conteúdo HTML:</label><br>
+                        <textarea name="conteudo" id="conteudo" required></textarea><br>
+
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+                <?php
+                require_once('../api/post.php'); // DESCOMENTAR PARA USAR LOCALMENTE
+                
+                ?>
+                <script>
+                    function validarForm() {
+                        var conteudo = document.getElementById("conteudo").value;
+
+                        if (conteudo.trim() === "") {
+                            alert("O campo de conteúdo HTML não pode estar vazio.");
+                            return false; // Impede o envio do formulário
+                        }
+
+                        // Continuar com o envio do formulário se o campo não estiver vazio
+                        return true;
+                    }
+                </script>
 </body>
 
 </html>

@@ -75,10 +75,22 @@
   .place-card-container {
     width: 200px;
   }
+  .landing-page-top-container {
+    display: block;
+  }
+  .landing-page-container {
+    display: block;
+  }
 }
 @media (max-width: 479px) {
   .place-card-container {
     width: 300px;
+  }
+  .landing-page-top-container {
+    display: block;
+  }
+  .landing-page-container {
+    display: block;
   }
 }
 

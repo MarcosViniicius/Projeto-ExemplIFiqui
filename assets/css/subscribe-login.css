@@ -188,3 +188,9 @@ body {
     bottom: 100%;
   }
 }
+
+@media (max-width: 767px) {
+  .login-box {
+    display: flex;
+  }
+}
