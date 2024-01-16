@@ -1,19 +1,19 @@
 {
   "functions": {
     "api/index.php": {
-      "runtime": "vercel-php@0.6.0"
+      "runtime": "vercel-php@0.5.3"
     },
     "api/calcs.php": {
-      "runtime": "vercel-php@0.6.0"
+      "runtime": "vercel-php@0.5.3"
     },
     "api/sobre.php": {
-      "runtime": "vercel-php@0.6.0"
+      "runtime": "vercel-php@0.5.3"
     },
     "api/subscribe-login.php": {
-      "runtime": "vercel-php@0.6.0"
+      "runtime": "vercel-php@0.5.3"
     },
     "api/control-panel.php": {
-      "runtime": "vercel-php@0.6.0"
+      "runtime": "vercel-php@0.5.3"
     }
   },
   "rewrites": [
